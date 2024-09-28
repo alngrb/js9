@@ -1,0 +1,60 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+    padding: 30px;
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+    border: 2px solid red;
+    padding: 10px;
+
+}
+
+h1{
+    font-weight: 100;
+    text-align: center;
+   margin: 0px 0px;
+}
+
+.btn {
+    border: 2px solid  brown;
+
+    background-color:  tranparent;
+    color: red;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: brown;
+    color:  white;
+}
+
+.error__input {
+    border: 1px solid  brown;
+}
+
+.error {
+    margin-top: -15px;
+}
